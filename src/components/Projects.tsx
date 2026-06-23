@@ -14,7 +14,7 @@ import { GithubIcon } from '@/components/SocialIcons';
 interface Project {
   id: string;
   title: string;
-  category: 'ai-ml' | 'web-dev';
+  category: 'ai-ml' | 'Sec';
   categoryLabel: string;
   period: string;
   shortDesc: string;
