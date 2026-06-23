@@ -28,7 +28,7 @@ interface Project {
 }
 
 export default function Projects() {
-  const [activeFilter, setActiveFilter] = useState<'all' | 'ai-ml' | 'web-dev'>('all');
+  const [activeFilter, setActiveFilter] = useState<'all' | 'ai-ml' | 'Sec'>('all');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const projects: Project[] = [
@@ -55,7 +55,7 @@ export default function Projects() {
     {
       id: 'AI based Phishing URL Detection System',
       title: 'Phishing URL Detection System',
-      category: 'ai-ml',
+      category: 'Sec',
       period: '2026',
       categoryLabel: 'AI &  Cyber Security',
       shortDesc: 'An AI-based phishing URL detection system designed to identify malicious and fraudulent websites through URL analysis and threat prediction techniques.',
@@ -97,7 +97,7 @@ export default function Projects() {
         </button>
         <button 
           className={`skills-tab-btn ${activeFilter === 'web-dev' ? 'active' : ''}`}
-          onClick={() => setActiveFilter('web-dev')}
+          onClick={() => setActiveFilter('Sec')}
         >
           Web Development
         </button>
