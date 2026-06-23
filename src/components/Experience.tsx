@@ -14,9 +14,9 @@ interface Position {
 export default function Experience() {
   const experiences: Position[] = [
     {
-      role: 'Web Development Intern',
-      company: 'InsightQuest Tech',
-      period: 'Oct 2025 – Nov 2025',
+      role: 'AI Web Development Intern',
+      company: 'InAmigos Foundation',
+      period: 'May 2025 – Jun 2026',
       bullets: [
         'Led end-to-end development of a full-stack online learning platform using the MERN stack (MongoDB, Express, React, Node.js).',
         'Implemented secure JWT-based user authentication and role-based access control (RBAC) for instructors and learners.',
@@ -25,15 +25,15 @@ export default function Experience() {
       ]
     },
     {
-      role: 'AI Intern',
-      company: 'Shell-Edunet Skills4Future (AICTE)',
-      period: 'Feb 2025 – March 2025',
+      role: 'Cyber Security Analyst',
+      company: 'TATA',
+      period: 'April 2025',
       bullets: [
-        'Completed a 4-week intensive AI internship focused on applying machine learning techniques for environmental sustainability.',
-        'Designed and developed an AI-powered solution addressing sustainability challenges, recognized in the Top 40 projects nationally out of thousands of submissions.',
-        'Collaborated in cross-functional teams to research, prototype, and present AI-driven sustainability applications.'
+        'Conducted Identity and Access Management (IAM) assessment in a simulated enterprise cybersecurity environment.',
+        'Analyzed cybersecurity risks, access control mechanisms, and security policies to identify vulnerabilities and improve security posture.',
+        'Evaluated cybersecurity best practices including Role-Based Access Control (RBAC), least privilege access, and user lifecycle management.',
+        'Collaborated on security analysis and threat assessment tasks to strengthen enterprise security operations.'
       ],
-      accolade: 'Top 40 project recognition nationwide'
     }
   ];
 
