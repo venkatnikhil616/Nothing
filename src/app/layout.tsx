@@ -3,18 +3,18 @@ import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 
 export const metadata: Metadata = {
-  title: "Chandaka Venu | Software Engineer & AI Enthusiast",
-  description: "Portfolio of Chandaka Venu, a Software Engineer, Full-Stack Developer, and AI/ML Enthusiast specialized in React, Node.js, FastAPI, TensorFlow and modern web applications.",
-  keywords: ["Chandaka Venu", "Portfolio", "Software Engineer", "Full-Stack Developer", "AI Engineer", "MERN Stack", "Python Developer", "India"],
-  authors: [{ name: "Chandaka Venu" }],
-  creator: "Chandaka Venu",
+  title: " Venkat Nikhil Vallamsetty | Cloud Security Engineer & Linux Administrator",
+  description: "Portfolio of Venkat Nikhil Vallamsetty, a Cloud & Cybersecurity Enthusiast, Full-Stack Web Developer, and aspiring Software Engineer specializing in AWS Cloud, Linux Administration, Network Security, Python, React, and modern web applications.",
+  keywords: ["Venkat Nikhil Vallamsetty","Portfolio","Cloud Computing","Cybersecurity","Cloud Security","AWS Cloud","Linux Administration","Full-Stack Web Developer","Python Developer","Network Security","India"],
+  authors: [{ name: "Venkat Nikhil Vallamsetty" }],
+  creator: "Venkat Nikhil Vallamsetty",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://github.com/venu-chandaka/",
-    title: "Chandaka Venu | Software Engineer & AI Enthusiast",
-    description: "Explore the projects, achievements, and skillset of Chandaka Venu, Software Engineer and AI & ML Enthusiast.",
-    siteName: "Chandaka Venu Portfolio",
+    url: "https://github.com/venkatnikhil616/",
+    title: "Venkat Nikhil VAllamsetty | Cloud Security Engineer & Linux Enthusiast",
+    description: "Explore the projects, achievements, and technical skillset of Venkat Nikhil Vallamsetty, a Cloud & Cybersecurity Enthusiast, aspiring Software Engineer, and Full-Stack Web Developer passionate about AWS Cloud, Linux Administration, Network Security, Python, and modern web technologies.",
+    siteName: "Venkat Nikhil Portfolio",
   },
 };
 
