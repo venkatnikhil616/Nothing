@@ -33,27 +33,30 @@ export default function Skills() {
     { name: 'Bash', category: 'languages', level: 70, levelText: 'Intermediate', icon: <Code size={18} /> },
     
     // Frameworks & Libraries
-    { name: 'React', category: 'frameworks', level: 85, levelText: 'Advanced', icon: <Cpu size={18} /> },
-    { name: 'Next.js', category: 'frameworks', level: 80, levelText: 'Intermediate', icon: <Cpu size={18} /> },
-    { name: 'Node.js', category: 'frameworks', level: 80, levelText: 'Intermediate', icon: <Server size={18} /> },
-    { name: 'Express', category: 'frameworks', level: 80, levelText: 'Intermediate', icon: <Server size={18} /> },
+    { name: 'HTML%', category: 'frameworks', level: 85, levelText: 'Advanced', icon: <Cpu size={18} /> },
+    { name: 'Flask', category: 'frameworks', level: 80, levelText: 'Intermediate', icon: <Cpu size={18} /> },
+    { name: 'React', category: 'frameworks', level: 80, levelText: 'Intermediate', icon: <Server size={18} /> },
+    { name: 'CSS', category: 'frameworks', level: 80, levelText: 'Intermediate', icon: <Server size={18} /> },
     { name: 'FastAPI', category: 'frameworks', level: 75, levelText: 'Intermediate', icon: <Server size={18} /> },
-    { name: 'Streamlit', category: 'frameworks', level: 80, levelText: 'Advanced', icon: <BarChart size={18} /> },
+    { name: 'Tailwind CSS', category: 'frameworks', level: 80, levelText: 'Advanced', icon: <BarChart size={18} /> },
     
-    // AI & Machine Learning
-    { name: 'TensorFlow', category: 'ml', level: 80, levelText: 'Intermediate', icon: <BrainCircuit size={18} /> },
-    { name: 'Keras', category: 'ml', level: 80, levelText: 'Intermediate', icon: <BrainCircuit size={18} /> },
-    { name: 'Scikit-learn', category: 'ml', level: 85, levelText: 'Advanced', icon: <BrainCircuit size={18} /> },
-    { name: 'OpenCV', category: 'ml', level: 75, levelText: 'Intermediate', icon: <Cpu size={18} /> },
-    { name: 'MediaPipe', category: 'ml', level: 70, levelText: 'Intermediate', icon: <Cpu size={18} /> },
-    { name: 'Pandas & NumPy', category: 'ml', level: 85, levelText: 'Advanced', icon: <BarChart size={18} /> },
-
+    // Cloud & Cyber Security
+    { name: 'Google Cloud', category: 'cloud', level: 80, levelText: 'Intermediate', icon: <BrainCircuit size={18} /> },
+    { name: 'AWS IAM', category: 'cloud', level: 80, levelText: 'Intermediate', icon: <BrainCircuit size={18} /> },
+    { name: 'Linux Administration', category: 'Cyber Security', level: 85, levelText: 'Advanced', icon: <BrainCircuit size={18} /> },
+    { name: 'Network Security', category: 'Cyber Security', level: 75, levelText: 'Intermediate', icon: <Cpu size={18} /> },
+    { name: 'Cloud Security', category: 'cloud', level: 70, levelText: 'Intermediate', icon: <Cpu size={18} /> },
+    { name: 'Threat Detection', category: 'Cyber Security', level: 85, levelText: 'Advanced', icon: <BarChart size={18} /> },
+    { name: 'Ethical Hacking Fundamentals', category: 'Cyber Security', level: 85, levelText: 'Advanced', icon: <BarChart size={18} /> },
+    
     // Databases & Tools
-    { name: 'MongoDB', category: 'databases', level: 80, levelText: 'Intermediate', icon: <Database size={18} /> },
-    { name: 'MySQL', category: 'databases', level: 85, levelText: 'Advanced', icon: <Database size={18} /> },
-    { name: 'SQL Server', category: 'databases', level: 70, levelText: 'Intermediate', icon: <Database size={18} /> },
-    { name: 'Git & GitHub', category: 'databases', level: 85, levelText: 'Advanced', icon: <Wrench size={18} /> },
-    { name: 'VS Code', category: 'databases', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
+    { name: 'MySQL', category: 'databases', level: 80, levelText: 'Intermediate', icon: <Database size={18} /> },
+    { name: 'SQLite', category: 'databases', level: 85, levelText: 'Advanced', icon: <Database size={18} /> },
+    { name: 'Postman', category: 'tools', level: 70, levelText: 'Intermediate', icon: <Database size={18} /> },
+    { name: 'Git & GitHub', category: 'tools', level: 85, levelText: 'Advanced', icon: <Wrench size={18} /> },
+    { name: 'VS Code', category: 'tools', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
+    { name: 'Nmap', category: 'tools', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
+    { name: 'Wire Shark', category: 'tools', level: 0, levelText: 'Advanced', icon: <Wrench size={18} /> }
   ];
 
   const filteredSkills = activeTab === 'all' 
@@ -64,7 +67,7 @@ export default function Skills() {
     { id: 'all', label: 'All Skills' },
     { id: 'languages', label: 'Languages' },
     { id: 'frameworks', label: 'Web & Frameworks' },
-    { id: 'ml', label: 'AI & ML' },
+    { id: 'cloud', label: 'cloud & Cyber Security' },
     { id: 'databases', label: 'Databases & Tools' },
   ] as const;
 
