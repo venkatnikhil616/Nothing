@@ -30,6 +30,7 @@ export default function Skills() {
     { name: 'Java', category: 'languages', level: 85, levelText: 'Advanced', icon: <Coffee size={18} /> },
     { name: 'JavaScript', category: 'languages', level: 80, levelText: 'Intermediate', icon: <Code size={18} /> },
     { name: 'C & C++', category: 'languages', level: 75, levelText: 'Intermediate', icon: <Code size={18} /> },
+    { name: 'Bash', category: 'languages', level: 70, levelText: 'Intermediate', icon: <Code size={18} /> },
     
     // Frameworks & Libraries
     { name: 'React', category: 'frameworks', level: 85, levelText: 'Advanced', icon: <Cpu size={18} /> },
