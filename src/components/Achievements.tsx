@@ -49,7 +49,8 @@ export default function Achievements() {
   { name: 'Introduction to Critical Infrastructure Protection', issuer: 'OPSWAT', year: '2026' },
   { name: 'Cybersecurity Job Ready Certification (86%)', issuer: 'Certigo', year: '2026' },
   { name: 'API Development: Framework Security', issuer: 'Infosys', year: '2026' },
-  { name: 'Python Basics for Data Science', issuer: 'IBM', year: '2026' }
+  { name: 'Complete Ethical Hacking Course', issuer:'Aaj-Hub', year: '2025' },
+  { name: 'Python Basics for Data Science', issuer: 'IBM', year: '2024' }
   ];
 
   return (
